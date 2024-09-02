@@ -11,7 +11,7 @@ html {
 }
 
 body {
-	background: url('https://github.com/nemo-127/profile-card/blob/ae78fbea192e43633326e3f5c15d4d3a1b252100/background') no-repeat 50% 50%; // Source http://unsplash.com/post/93258562329/download-by-roland-batke-mutschler
+	background: url('https://github.com/nemo-127/profile-card/blob/main/img-background.jpg?raw=true') no-repeat 50% 50%; // Source http://unsplash.com/post/93258562329/download-by-roland-batke-mutschler
 	-webkit-background-size: cover;
 	background-size: cover;
 	font: 400 1em/1.5em 'Raleway', sans-serif;
@@ -64,13 +64,6 @@ a {
 
 	a {
 		color: #555;
-	}
-
-	img {
-		border: 3px solid #ddd;
-		border-radius: 50%;
-		background-clip: padding-box;
-		margin: 5em 0;
 	}
 
 	h1 {

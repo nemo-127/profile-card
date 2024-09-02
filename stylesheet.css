@@ -104,6 +104,8 @@ a {
 
 		.fa-blog {
 
+			font-size:1.5em;
+
 			&:hover {
 				color: #fba457;
 			}
@@ -111,12 +113,16 @@ a {
 
 		.fa-camera {
 
+			font-size:1.5em;
+
 			&:hover {
 				color: #008000;
 			}
 		}
 
 		.fa-book {
+
+			font-size:1.5em;
 
 			&:hover {
 				color: #4ea6cc;

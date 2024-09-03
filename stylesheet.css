@@ -61,7 +61,7 @@ a {
 	right: 0;
 	text-align: center;
 	top: 0;
-	padding-top:180px;
+	padding-top:150px;
 
 	a {
 		color: #555;
@@ -81,56 +81,29 @@ a {
 		margin: 0 0 4em 0;
 	}
 
+	.btn {
+		border: 1px solid #ddd;
+		display: block;
+		margin: 0 auto 2em auto;
+		padding: .5em 0;
+		text-transform: uppercase;
+		width: 90%;
+	}
+
+	.btn2 {
+		border: 1px solid #ddd;
+		display: block;
+		margin: 0 auto 2em auto;
+		padding: .5em 0;
+		width: 90%;
+	}
+
 	.social {
 		@extend .clear;
 		@extend .list-unstyled;
 		border-top: 1px solid #eee;
 		font-size: 1.5em;
 		text-align: center;
-
-        ul{
-            text-align: center;
-           }
-
-		li {
-			display: inline-block;
-            margin-left: 30px;
-            margin-right: 70px;
-		}
-
-		a {
-			display: block;
-			padding: 1em 0;
-		}
-
-		.fa-blog {
-
-			font-size:1.5em;
-
-			&:hover {
-				color: #fba457;
-			}
-		}
-
-		.fa-camera {
-
-			font-size:1.5em;
-
-			&:hover {
-				color: #008000;
-			}
-		}
-
-		.fa-book {
-
-			font-size:1.5em;
-
-			&:hover {
-				color: #4ea6cc;
-			}
-
-		}
-
 	}
 
 }
